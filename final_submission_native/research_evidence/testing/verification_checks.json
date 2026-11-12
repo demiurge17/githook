@@ -1,0 +1,40 @@
+{
+  "counts": {
+    "timing_rows": 60,
+    "workload_condition_groups": 6,
+    "per_run_json_checked": 60,
+    "case_rows": 8,
+    "actual_positive_cases": 1,
+    "integrity_files_checked": 10,
+    "redaction_files_checked": 145,
+    "checks": 23,
+    "issues": 0
+  },
+  "checks": {
+    "timing_columns_match_request": true,
+    "case_columns_match_request": true,
+    "timing_row_count_is_60": true,
+    "case_row_count_is_8": true,
+    "six_required_groups_present": true,
+    "each_group_has_ten_unique_runs": true,
+    "per_run_json_matches_raw_timings": true,
+    "per_run_candidate_counts_and_binary_labels_valid": true,
+    "native_commit_outcomes_match_predictions": true,
+    "cold_warm_internal_timings_match_conditions": true,
+    "cold_stop_and_unloaded_preconditions_recorded": true,
+    "warm_preconditions_match_prior_successful_service_pid": true,
+    "row_host_model_config_identities_match_manifest": true,
+    "six_median_minimum_maximum_summaries_match_csv": true,
+    "case_ids_are_complete_and_unique": true,
+    "eight_case_labels_decisions_statuses_and_paths_consistent": true,
+    "case_raw_labels_match_native_sanitized_logs": true,
+    "positive_case_summary_matches_observations": true,
+    "integrity_before_equals_after": true,
+    "integrity_unchanged_flag_true": true,
+    "recorded_integrity_matches_current_files": true,
+    "summary_records_completed_benchmark_and_real_cases": true,
+    "exported_logs_json_csv_contain_no_fixed_candidate_or_quoted_value": true
+  },
+  "issues": [],
+  "passed": true
+}

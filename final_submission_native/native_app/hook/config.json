@@ -1,0 +1,36 @@
+{
+  "experiment_record": "model/experiment.json",
+  "classifier_path": "model/random_forest.joblib",
+  "classifier_sha256": "74f80da29e7fd0199c699c81da509d9e4d74e6472dbe6eb683a965265b676dd3",
+  "model": "microsoft/codebert-base",
+  "model_revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "tokenizer_revision": "3b0952feddeffad0063f274080e3c23d75e7eb39",
+  "max_length": 512,
+  "pooling": "attention-mask-weighted mean of last hidden states, including attended special tokens",
+  "embedding_size": 768,
+  "positive_label": 1,
+  "batch_size": 2,
+  "torch_threads": 4,
+  "service_idle_seconds": 600,
+  "service_start_timeout_seconds": 10,
+  "service_request_timeout_seconds": 300,
+  "min_memavailable_mib": 1536,
+  "min_memavailable_during_mib": 768,
+  "max_file_bytes": 1048576,
+  "max_files": 100,
+  "max_examples": 500,
+  "max_candidate_bytes": 4096,
+  "file_extensions": [
+    ".py", ".pyi", ".js", ".jsx", ".mjs", ".cjs", ".ts", ".tsx", ".java",
+    ".c", ".h", ".cc", ".cpp", ".hpp", ".cs", ".go", ".rs", ".rb", ".php",
+    ".swift", ".kt", ".kts", ".scala", ".sc", ".sh", ".bash", ".zsh", ".sql",
+    ".html", ".htm", ".css", ".scss", ".vue", ".svelte", ".json", ".jsonc",
+    ".yaml", ".yml", ".toml", ".ini", ".cfg", ".conf", ".properties", ".xml",
+    ".gradle", ".tf", ".hcl", ".env.example"
+  ],
+  "file_names": ["Dockerfile", "Containerfile", "Makefile", "Justfile", ".env", ".npmrc", ".pypirc"],
+  "excluded_directory_names": [
+    ".git", ".venv", "venv", "env", "node_modules", "vendor", "dist", "build",
+    "artifacts", "__pycache__", ".tox", ".mypy_cache", ".pytest_cache"
+  ]
+}

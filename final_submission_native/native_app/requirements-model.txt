@@ -1,0 +1,9 @@
+# Install CPU PyTorch separately using the official CPU wheel index:
+#   .venv/bin/python -m pip install torch==2.9.1 --index-url https://download.pytorch.org/whl/cpu
+# Then install these pinned inference dependencies:
+#   .venv/bin/python -m pip install -r requirements-model.txt
+numpy==2.2.6
+transformers==4.57.6
+scikit-learn==1.7.2
+safetensors==0.6.2
+joblib==1.5.2
