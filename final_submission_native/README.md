@@ -1,4 +1,4 @@
-# Native Linux Git Secret Detector
+# Native Linux Githook
 
 This submission contains the native Git pre-commit detector and its frozen CodeBERT–Random Forest model. It does not include the Streamlit interface or Docker deployment. Research scripts and supporting results are kept in `research_evidence/`.
 
