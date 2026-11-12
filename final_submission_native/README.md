@@ -125,7 +125,6 @@ not required for ordinary hook operation.
 
 - `native_app/`: standalone hook, local inference service, configuration, frozen Linux model, pinned encoder/tokenizer assets, and global installer/uninstaller.
 - `research_evidence/`: training/split/audit scripts, original metric records, native functional evidence, runtime measurements, and Windows reproduction evidence. It is not imported by the runtime.
-- `thesis_v3.docx`: thesis document supplied for this submission.
 
 The Windows reproduction's large embedding and chunk archives are not included. Its recorded experiment, separate fitted forest, comparison report, and retained audit are included; those metrics cannot be recomputed from the included Windows files alone.
 
